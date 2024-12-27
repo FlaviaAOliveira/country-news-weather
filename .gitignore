@@ -6,12 +6,13 @@
 .tmp
 *.tmp
 *.tmp.*
+/temp
 UserInterfaceState.xcuserstate
 $RECYCLE.BIN/
 
+# Logs
 *.log
 log.txt
-
 
 /.sourcemaps
 /.versions
@@ -22,17 +23,21 @@ log.txt
 /www
 /platforms
 /plugins
+/resources
+/sourcemaps
 
 # Compiled output
 /dist
 /tmp
 /out-tsc
 /bazel-out
+/build
 
 # Node
 /node_modules
 npm-debug.log
 yarn-error.log
+yarn-debug.log
 
 # IDEs and editors
 .idea/
@@ -52,7 +57,6 @@ yarn-error.log
 !.vscode/extensions.json
 .history/*
 
-
 # Miscellaneous
 /.angular
 /.angular/cache
@@ -68,3 +72,12 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Environment files
+.env
+*.env
+
+# Capacitor files
+/android
+/ios
+
